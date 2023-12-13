@@ -13,248 +13,182 @@
 
   <!--Nav Bar-->
 
-  <nav class="navbar navbar-expand-md navbar-light bg-warning fixed-top">
+  <nav class="navbar  navbar-expand-lg navbar-light  sticky-top">
       <div class="container-fluid">
-          <a class="navbar-brand text-white fw-bold" href="#">Tasty Foods</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+         
+          <button class="navbar-toggler me-5 " type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
               aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon "></span>
           </button>
+          <a class="navbar-brand" href="#"><img src="Images/Screenshot 2023-12-12 130313.png"></a>
+          <i class="bi bi-bag d-lg-none d-md-none "></i>
+         
+          
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
+                      <a class="nav-link active" aria-current="page" href="about.html">ALL SNACKS</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#order">Orders</a>
+                      <a class="nav-link  active" href="#">HAMBERS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">about us</a>
+                    <a class="nav-link  active" href="#">HAMPERSGIFT </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  active" href="#">VOUCHERS</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link  active" href="contact.html">CONTACT US</a>
                  </li>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                          data-bs-toggle="dropdown" aria-expanded="false">
-                          Deals
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li>
-                              <hr class="dropdown-divider">
-                          </li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact us</a>
-                  </li>
-              </ul>
-              <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  
+                   </ul>
+              <form class="d-flex ">
+                  <input class="form-control me-2" type="search" placeholder="SEARCH PRODUCTS" aria-label="Search">
+
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#myModal" role="dialog" ><i class="bi bi-bag">
+                 </i></button>
+                 <div class="modal fade" id="myModal" role="dialog">
+                     <div class="modal-dialog">
+                             <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                                    <h4>No produt in cart</h4>
+                            </div>
+                          </div>
+                     </div>
+                 </div>
                  
+                 <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#myModal2" role="dialog" ><i class="bi bi-person-fill"></i>
+                </button>
+                <div class="modal fade" id="myModal2" role="dialog">
+                    <div class="modal-dialog">
+                            <div class="modal-content">
+                               <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                   <h6>singn</h6>
+                                 
+                                   <h6>register</h6>
+                                  
+                                   <h6>checkout</h6>
+                           </div>
+                         </div>
+                    </div>
+                </div>
               </form>
+              
           </div>
       </div>
   </nav>
-
-
-  <!--Carousal-->
-
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://evolvesnacks.com/cdn/shop/files/banner1_1024x1024.jpg?v=1655447895" class="d-block w-100" alt="food">
       </div>
-      <div class="carousel-inner">
-          <div class="carousel-item active">
-              <img src="https://img.freepik.com/free-photo/top-view-circular-food-frame_23-2148723455.jpg?w=740&t=st=1702214078~exp=1702214678~hmac=ba0bb6028beddc38e820a7e250908d283230758c56041c13bf8f91907e3d8ec5" class="slide d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                  <h2 class="text-dark fw-bold">Non Veg Items</h2>
-                  <p class="text-dark">Some representative placeholder content for the first slide.</p>
-              </div>
-          </div>
-          <div class="carousel-item active">
-              <img src="https://wallpapercave.com/wp/wp7845792.jpg" class="slide d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                  <h2 class="text-primary">Veg options</h2>
-                  <p class="text-dark "><b>Some representative placeholder content for the second slide.</b></p>
-              </div>
-          </div>
-          <div class="carousel-item">
-              <img src="https://images.collegedunia.com/public/image/356b6833795465b01ce31024f581fc0a.png" class="slide d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                  <h2>Chinese Foods</h2>
-                  <p>Some representative placeholder content for the third slide.</p>
-              </div>
-          </div>
+      <div class="carousel-item">
+        <img src="https://img.freepik.com/premium-photo/meat-cut-cold-snacks-italian-cuisine-wooden-background-top-view-copy-space_187166-45040.jpg" class="d-block w-100" alt="...">
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-      </button>
-  </div>
-
-  <!--Order Section-->
-  <h1 class="text-center">Order Your Foods Now..!</h1>
-  <div class="container" id="order">
-      
-      
-              <div class="card text-center border-2 border-warning"cce style= "height: 25rem;">
-                  <img src="Images/Screenshot 2023-12-10 184625.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                      <h5 class="card-title">Chicken Biryani</h5>
-                      <p class="card-text">Tasty Chicken Biryani</p>
-                      <h5 class="card-title text-danger">Rs: 199.00</h5>
-                      <a href="#inputName" class="btn btn-primary">Order Now</a>
-                  </div>
-
-          </div>
-         
-              <div class="card text-center border-2 border-warning" style=" height: 25rem;">
-                  <img src="Images/Screenshot 2023-12-10 184842.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                      <h5 class="card-title">Beef Fry</h5>
-                      <p class="card-text">Tasty Beef Fry</p>
-                      <h5 class="card-title text-danger">Rs: 299.00</h5>
-                      <a href="#inputName" class="btn btn-primary">Order Now</a>
-                  
-              </div>
-
-          </div>
-          
-              <div class="card text-center border-2 border-warning" style=" height: 25rem;">
-                  <img src="Images/Screenshot 2023-12-10 185057.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                      <h5 class="card-title">Dosa</h5>
-                      <p class="card-text">Tasty Dosa</p>
-                      <h5 class="card-title text-danger">Rs: 29.00</h5>
-                      <a href="#inputName" class="btn btn-primary">Order Now</a>
-                  </div>
-              </div>
-              
-      
-      
-          
-              <div class="card text-center border-2 border-warning" style=" height: 25rem;">
-                  <img src="Images/Screenshot 2023-12-10 185242.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                      <h5 class="card-title">Fish Fry</h5>
-                      <p class="card-text">Tasty Fish</p>
-                      <h5 class="card-title text-danger">Rs: 249.00</h5>
-                      <a href="#inputName" class="btn btn-primary">Order Now</a>
-                  </div>
-              </div>
-             
-          
-          
-              <div class="card text-center border-2 border-warning" style=" height: 25rem;">
-                  <img src="Images/Screenshot 2023-12-10 185345.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                      <h5 class="card-title">Idli</h5>
-                      <p class="card-text">Tasty Idli</p>
-                      <h5 class="card-title text-danger">Rs: 39.00</h5>
-                      <a href="#inputName" class="btn btn-primary">Order Now</a>
-                  </div>
-              </div>
-          
-          
-              <div class="card text-center border-2 border-warning" style=" height: 25rem;">
-                  <img src="Images/Screenshot 2023-12-10 185724.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                      <h5 class="card-title">Sambar</h5>
-                      <p class="card-text">Tasty Sambar</p>
-                      <h5 class="card-title text-danger">Rs: 49.00</h5>
-                      <a href="#inputName" class="btn btn-primary">Order Now</a>
-                  </div>
-             </div>
-             
-             <div class="card text-center border-2 border-warning" style=" height: 25rem;">
-              <img src="Images/Screenshot 2023-12-10 185905.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                  <h5 class="card-title">Chicken fry</h5>
-                  <p class="card-text">Tasty Chicken fry</p>
-                  <h5 class="card-title text-danger">Rs: 199.00</h5>
-                  <a href="#inputName" class="btn btn-primary">Order Now</a>
-              </div>
-         </div>
-         
-         <div class="card text-center border-2 border-warning" style=" height: 25rem;">
-          <img src="Images/Screenshot 2023-12-10 190330.png" class="card-img-top" alt="...">
-          <div class="card-body">
-              <h5 class="card-title">Meals</h5>
-              <p class="card-text"> With Tasty sides</p>
-              <h5 class="card-title text-danger">Rs: 99.00</h5>
-              <a href="#inputName" class="btn btn-primary">Order Now</a>
-          </div>
-     </div>
-      
-  </div>
-
-  <!--Footer-->
-
-
-
-<div id="footer">
-  
-<form class="row">
-  <div class="col-6">
-    <label for="inputName" class="form-label">Name</label>
-    <input type="text" class="form-control" id="inputName">
-  </div>
-  <div class="col-6 col-lg-3">
-    <label for="inputPhone" class="form-label">Phone</label>
-    <input type="number" class="form-control" id="inputPhone">
-  </div>
-  
-  <div class="col-md-6">
-    <label for="inputAddress" class="form-label">Address</label>
-    <input type="textarea" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="col-md-6 col-lg-3">
-    <label for="inputAddress2" class="form-label">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  </div>
-  <div class="col-6">
-    <label for="inputCity" class="form-label">City</label>
-    <input type="text" class="form-control" id="inputCity">
-  </div>
-    
-  <div class="col col-lg-3">
-    <label for="inputState" class="form-label">Pyament</label>
-    <select id="inputState" class="form-select">
-      <option>cash on delivery</option>
-      <option>googlepay</option>
-      <option>phone pay</option>
-      <option>paytm</option>
-      
-    </select>
-  </div>
-
-  <div class="col-12">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Check me out
-      </label>
+      <div class="carousel-item">
+        <img src="https://a-static.besthdwallpaper.com/valentine-s-day-chocolates-wallpaper-1920x1080-13068_48.jpg" class="d-block w-100" alt="snacks">
+      </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-  <div class="col-6">
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </div>
-</form>
+ 
+  <div class="hr-div pt-5"><h1 class="text-center">SHOP BY CATEGORY</h1><hr class=" text-center mx-auto"></div>
+  
+  <section class="section-1  ">
+      <div class="row ms-3">
+         <div class="col-lg-3 col-6 "><a href="#"></a><img src="https://evolvesnacks.com/cdn/shop/files/Evolve-icons-snackers_heaven-27th_Apr_21_140x140.png?v=1619526814"></a>
+          <h5 class="text-success ms-3">All Snacks</h5></div>
+         <div class="col-lg-3 col-6 "><a href="#"><img src="https://evolvesnacks.com/cdn/shop/files/Evolve-icons-weight_loss2-27th_Apr_21_140x140.png?v=1619526604"></a>
+            <h5 class="text-success ms-3">Weight Loss</h5></div>
+         <div class="col-lg-3 col-6 "><a href="#"><img src="https://evolvesnacks.com/cdn/shop/files/Evolve-icons-kids_friendly-27th_Apr_21_140x140.png?v=1619526675"></a>
+            <h5 class="text-success ms-3">Healthy Kids</h5></div>
+         <div class="col-lg-3 col-6 "><a href="#"><img src="https://evolvesnacks.com/cdn/shop/files/Evolve-icons-healthy_dessert-27th_Apr_21_140x140.png?v=1619526795"></a>
+            <h5 class="text-success ms-3">Healthy Desserts</h5></div>
+         <div class="col-lg-3 col-6 "><a href="#"><img src="https://evolvesnacks.com/cdn/shop/files/Evolve-icons-Indian_Munchies-27th_Apr_21_140x140.png?v=1619526913"></a>
+            <h5 class="text-success ms-3">Indian Munchies</h5> </div>
+         <div class="col-lg-3 col-6 "><a href="#"><img src="https://evolvesnacks.com/cdn/shop/files/Evolve-icons-jain_snacks2-round-27th_Apr_21_140x140.png?v=1619526977"></a>
+            <h5 class="text-success ms-3">Jain Snacks</h5></div>
+         <div class="col-lg-3 col-6 "><a href="#"><img src="https://evolvesnacks.com/cdn/shop/files/Evolve-icons-energy_drinks-27th_Apr_21_140x140.png?v=1619526859"></a>
+            <h5 class="text-success ms-3">Energy Drink</h5></div>
+         <div class="col-lg-3 col-6 "><a href="#"><img src="https://evolvesnacks.com/cdn/shop/files/Evolve-icons-poer_fitness-27th_Apr_21_140x140.png?v=1619527062"></a>
+            <h5 class="text-success ms-3">Power Fitness</h5></div>
+      </div>
+  </section>
+  <div class="hr-div pt-5"><h1 class="text-center">SHOP BY BENEFITS</h1><hr class=" text-center mx-auto"></div>
 
-</div>
+    <section class="section-2 d-flex">
+        <div class="section-2-indiv"><img src="https://evolvesnacks.com/cdn/shop/files/Untitled_design_64_1024x1024.png?v=1616492265"><div class="benifit-div"><h2 class="text-light">Benifits</h2><h1 class="text-light">ANTIOXIDANTS</h1></div></div>
+        <div class="section-2-indiv"><img src="https://evolvesnacks.com/cdn/shop/files/Untitled_design_65_1024x1024.png?v=1616492390"><div class="benifit-div1"><h2 class="text-black">Benifits</h2><h1 class="text-black">ENERGY BOOSTER</h1></div></div>
+        <div class="section-2-indiv"><img src="https://evolvesnacks.com/cdn/shop/files/Untitled_design_66_1024x1024.png?v=1616492464"><div class="benifit-div1"><h2 class="text-black">Benifits</h2><h1 class="text-blackt">HEALTHY HEART</h1></div></div>
+        <div class="section-2-indiv"><img src="https://evolvesnacks.com/cdn/shop/files/Untitled_design_67_1024x1024.png?v=1616492508"><div class="benifit-div"><h2 class="text-light">Benifits</h2><h1 class="text-light">HIGH PROTEIN</h1></div></div>
+
+    </section>
+    
+    <section class="section-3">
+
+        <div class="row ">
+            <div class="col-lg-6 col-sm-12  p-5">
+                
+                <h2  class="text-black mt-2">How Your Snacks Reaches You</h2>
+                <br>
+                <h2  class="text-secondary mt-2">Step 1: Choose Your Snacks</h2>
+                <br>
+                <h2  class="text-secondary mt-2">Step 2: Snacks Are Freshly Prepared</h2>
+                <br>
+                <h2  class="text-secondary mt-2">Step 3: Delivery At Your Doorsteps</h2>
+                <br>
+                <h2  class="text-secondary ">Step 4: Enjoy Your Yummy Snacks</h2>
+            
+            </div>
+            <div class="col-lg-6 col-sm-12"><img class="coocnut"src="https://evolvesnacks.com/cdn/shop/files/COCO-min-new_1024x1024.png?v=1616493875"></div>
+        </section>
+        <div class="hr-div pt-5"><h1 class="text-center">We are also available on</h1><hr class=" text-center mx-auto"></div>
+
+        <section class="row m-auto" >
+            <div class="col-lg-3  col-6 p-5"><a href="#"><img class="mt-5"  style="height: 55px; width:130px;" src="https://evolvesnacks.com/cdn/shop/files/1000px-Amazon_logo.svg_1b0c1349-53e3-44f5-b132-4533478b2dc9_large.png?v=1619193495"></a></div>
+            <div class="col-lg-3  col-6 p-5"><a href="#"><img class="mt-4"  style="height: 75px; width:130px;" src="https://evolvesnacks.com/cdn/shop/files/firstcry_large.png?v=1618424376"></a></div>
+            <div class="col-lg-3  col-6 p-5"><a href="#"><img  class="mt-3" style="height: 100px; width:160px;" src="https://evolvesnacks.com/cdn/shop/files/download_3_large.png?v=1618424506"></a></div>
+            <div class="col-lg-3  col-6 p-5"><a href="#"><img style="height: 135px; width:140px;" src="https://evolvesnacks.com/cdn/shop/files/LBB_Twitter-2_large.jpg?v=1618424568"></a></div>
+        </section>
+
+
+        <div class="hr-div pt-5"><h1 class="text-center">You Heard about us on</h1><hr class=" text-center mx-auto"></div>
+
+        <section class="row m-auto" >
+            <div class="col-lg-3 col-6 p-5"><a href="#"><img class="mt-5 "  style="height: 55px; width:130px;" src="https://evolvesnacks.com/cdn/shop/files/download_large.png?v=1618424965"></a></div>
+            <div class="col-lg-3 col-6 p-5"><a href="#"><img class="mt-4"  style="height: 75px; width:130px;" src="https://evolvesnacks.com/cdn/shop/files/whats-hot-image-2-2_large.jpg?v=1618425012"></a></div>
+            <div class="col-lg-3 col-6 p-5"><a href="#"><img  class="mt-3" style="height: 100px; width:160px;" src="https://evolvesnacks.com/cdn/shop/files/outlook-business-logo_63293915-37d1-4c7c-8eff-90b88731d1d9_large.png?v=1618425460"></a></div>
+            <div class="col-lg-3 col-6 p-5"><a href="#"><img style="height: 135px; width:140px;" src="https://evolvesnacks.com/cdn/shop/files/1519902718447_large.png?v=1618426346"></a></div>          
+        </section>
+
+        <footer class="footer bg-light p-5">
+            <p>Copyright © Evolve Snacks 2021 | All rights reserved| Designed by Brand Fabricator |<br>Mobile apps by Shop2app, Inc</p>
+            
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

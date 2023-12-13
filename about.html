@@ -10,102 +10,312 @@
 </head>
 <body>
     <!--navbar-->
-
-    <nav class="navbar navbar-expand-sm bg-success  ">
-        <div class="container-fluid ">
-          <a class="navbar-brand" href="#">Tasty food</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav class="navbar  navbar-expand-lg navbar-light  sticky-top">
+      <div class="container-fluid">
+         
+          <button class="navbar-toggler me-5 " type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  more
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#">contact us</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input id="hi" class="form-control " type="search" placeholder="Search" aria-label="Search">
-            </form>
-          </div>
-        </div>
-    </nav>
-
-    <div class="card-div">
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-  
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-  
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-  
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-  
-
+          <a class="navbar-brand" href="index.html"><img src="Images/Screenshot 2023-12-12 130313.png"></a>
+          <i class="bi bi-bag d-lg-none d-md-none "></i>
+         
           
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="about.html">ALL SNACKS</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link  active" href="#">HAMBERS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  active" href="#">HAMPERSGIFT </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  active" href="#">VOUCHERS</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link  active" href="contact.html">CONTACT US</a>
+                 </li>
+                  
+                   </ul>
+              <form class="d-flex ">
+                  <input class="form-control me-2" type="search" placeholder="SEARCH PRODUCTS" aria-label="Search">
+
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#myModal" role="dialog" ><i class="bi bi-bag">
+                 </i></button>
+                 <div class="modal fade" id="myModal" role="dialog">
+                     <div class="modal-dialog">
+                             <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                                    <h4>No produt in cart</h4>
+                            </div>
+                          </div>
+                     </div>
+                 </div>
+                 
+                 <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#myModal2" role="dialog" ><i class="bi bi-person-fill"></i>
+                </button>
+                <div class="modal fade" id="myModal2" role="dialog">
+                    <div class="modal-dialog">
+                            <div class="modal-content">
+                               <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                   <h6>singn</h6>
+                                 
+                                   <h6>register</h6>
+                                  
+                                   <h6>checkout</h6>
+                           </div>
+                         </div>
+                    </div>
+                </div>
+              </form>
+              
+          </div>
       </div>
-      
+  </nav>
+   
+  
+<div class="hr-div pt-5"><h1 class="text-center">We are also available on</h1><hr class=" text-center mx-auto"></div>
+  
+
+<section class="card-section d-flex">
+
+<div class="card mt-3" style="width: 18rem;">
+  <img src="https://evolvesnacks.com/cdn/shop/products/bestsellerpack_1024x1024.jpg?v=1633781115" class="card-img-top" alt="...">
+  <div class="card-body">
+   <div class="star-icon d-flex justify-content-center"><img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img   style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;" src="Images/icons8-star-48.png">
+  </div>
+    <p class="card-text">Best of Evolve Snacks- Perfect for first timers.</p>
+  </div>
+  
+  <div class="card-body">
+    <a href="#" class="card-link bg-success text-light">100gm</a>
+    <a href="#" class="card-link">500gm</a>
+  </div>
+</div>
+
+
+<div class="card mt-3" style="width: 18rem;">
+  <img src="https://evolvesnacks.com/cdn/shop/products/ragichips1_a8f629ef-2361-451f-85f9-bf4d63cd85ed_1024x1024.jpg?v=1635416244" class="card-img-top" alt="...">
+  <div class="card-body">
+   <div class="star-icon d-flex justify-content-center"><img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img   style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;" src="Images/icons8-star-48.png">
+  </div>
+    <p class="card-text">Best of Evolve Snacks- Perfect for first timers.</p>
+  </div>
+  
+  <div class="card-body">
+    <a href="#" class="card-link bg-success text-light">100gm</a>
+    <a href="#" class="card-link">500gm</a>
+  </div>
+</div>
+
+
+<div class="card mt-3" style="width: 18rem;">
+  <img src="https://evolvesnacks.com/cdn/shop/products/MC_1024x1024.png?v=1633781272" class="card-img-top" alt="...">
+  <div class="card-body">
+   <div class="star-icon d-flex justify-content-center"><img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img   style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;" src="Images/icons8-star-48.png">
+  </div>
+    <p class="card-text">Best of Evolve Snacks- Perfect for first timers.</p>
+  </div>
+  
+  <div class="card-body">
+    <a href="#" class="card-link bg-success text-light">100gm</a>
+    <a href="#" class="card-link">500gm</a>
+  </div>
+</div>
+
+
+<div class="card mt-3" style="width: 18rem;">
+  <img src="https://evolvesnacks.com/cdn/shop/products/bhakarwadi_1024x1024.jpg?v=1635332152" class="card-img-top" alt="...">
+  <div class="card-body">
+   <div class="star-icon d-flex justify-content-center"><img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img   style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;" src="Images/icons8-star-48.png">
+  </div>
+    <p class="card-text">Best of Evolve Snacks- Perfect for first timers.</p>
+  </div>
+  
+  <div class="card-body">
+    <a href="#" class="card-link bg-success text-light">100gm</a>
+    <a href="#" class="card-link">500gm</a>
+  </div>
+</div>
+
+<div class="card mt-3" style="width: 18rem;">
+  <img src="https://evolvesnacks.com/cdn/shop/products/oatschipsperiperi_8c2fb23b-8334-44cc-8818-ea66438acf4e_1024x1024.jpg?v=1640589873" class="card-img-top" alt="...">
+  <div class="card-body">
+   <div class="star-icon d-flex justify-content-center"><img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img   style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;" src="Images/icons8-star-48.png">
+  </div>
+    <p class="card-text">Best of Evolve Snacks- Perfect for first timers.</p>
+  </div>
+  
+  <div class="card-body">
+    <a href="#" class="card-link bg-success text-light">100gm</a>
+    <a href="#" class="card-link">500gm</a>
+  </div>
+</div>
+
+
+<div class="card mt-3" style="width: 18rem;">
+  <img src="https://evolvesnacks.com/cdn/shop/products/CornMunchies_1024x1024.jpg?v=1633781203" class="card-img-top" alt="...">
+  <div class="card-body">
+   <div class="star-icon d-flex justify-content-center"><img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img   style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;" src="Images/icons8-star-48.png">
+  </div>
+    <p class="card-text">Best of Evolve Snacks- Perfect for first timers.</p>
+  </div>
+  
+  <div class="card-body">
+    <a href="#" class="card-link bg-success text-light">100gm</a>
+    <a href="#" class="card-link">500gm</a>
+  </div>
+</div>
+
+
+<div class="card mt-3" style="width: 18rem;">
+  <img src="https://evolvesnacks.com/cdn/shop/products/multigrainpuffs_e1ec9642-fd11-4dc5-8fe7-89055ce6cbda_1024x1024.jpg?v=1640593844" class="card-img-top" alt="...">
+  <div class="card-body">
+   <div class="star-icon d-flex justify-content-center"><img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img   style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;" src="Images/icons8-star-48.png">
+  </div>
+    <p class="card-text">Best of Evolve Snacks- Perfect for first timers.</p>
+  </div>
+  
+  <div class="card-body">
+    <a href="#" class="card-link bg-success text-light">100gm</a>
+    <a href="#" class="card-link">500gm</a>
+  </div>
+</div>
+
+
+<div class="card mt-3" style="width: 18rem;">
+  <img src="https://evolvesnacks.com/cdn/shop/products/quinoamasalapuffs_1024x1024.jpg?v=1635396728" class="card-img-top" alt="...">
+  <div class="card-body">
+   <div class="star-icon d-flex justify-content-center"><img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img   style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;" src="Images/icons8-star-48.png">
+  </div>
+    <p class="card-text">Best of Evolve Snacks- Perfect for first timers.</p>
+  </div>
+  
+  <div class="card-body">
+    <a href="#" class="card-link bg-success text-light">100gm</a>
+    <a href="#" class="card-link">500gm</a>
+  </div>
+</div>
+
+
+<div class="card mt-3" style="width: 18rem;">
+  <img src="https://evolvesnacks.com/cdn/shop/products/soyacornchips_ecf9338b-1fb3-4f57-90e5-e5c45c1cd38a_1024x1024.jpg?v=1636952160" class="card-img-top" alt="...">
+  <div class="card-body">
+   <div class="star-icon d-flex justify-content-center"><img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img   style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;" src="Images/icons8-star-48.png">
+  </div>
+    <p class="card-text">Best of Evolve Snacks- Perfect for first timers.</p>
+  </div>
+  
+  <div class="card-body">
+    <a href="#" class="card-link bg-success text-light">100gm</a>
+    <a href="#" class="card-link">500gm</a>
+  </div>
+</div>
+
+
+<div class="card mt-3" style="width: 18rem;">
+  <img src="https://evolvesnacks.com/cdn/shop/products/beetrootchips_1024x1024.jpg?v=1635336445" class="card-img-top" alt="...">
+  <div class="card-body">
+   <div class="star-icon d-flex justify-content-center"><img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img   style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;" src="Images/icons8-star-48.png">
+  </div>
+    <p class="card-text">Best of Evolve Snacks- Perfect for first timers.</p>
+  </div>
+  
+  <div class="card-body">
+    <a href="#" class="card-link bg-success text-light">100gm</a>
+    <a href="#" class="card-link">500gm</a>
+  </div>
+</div>
+
+
+<div class="card mt-3" style="width: 18rem;">
+  <img src="https://evolvesnacks.com/cdn/shop/products/corntriangularchips_1024x1024.jpg?v=1633781208" class="card-img-top" alt="...">
+  <div class="card-body">
+   <div class="star-icon d-flex justify-content-center"><img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img   style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;" src="Images/icons8-star-48.png">
+  </div>
+    <p class="card-text">Best of Evolve Snacks- Perfect for first timers.</p>
+  </div>
+  
+  <div class="card-body">
+    <a href="#" class="card-link bg-success text-light">100gm</a>
+    <a href="#" class="card-link">500gm</a>
+  </div>
+</div>
+
+
+<div class="card mt-3" style="width: 18rem;">
+  <img src="https://evolvesnacks.com/cdn/shop/products/SoyaChipsPudina_1024x_41906292-35b6-4a63-9873-ddd2d1d190b6_1024x1024.jpg?v=1633781587" class="card-img-top" alt="...">
+  <div class="card-body">
+   <div class="star-icon d-flex justify-content-center"><img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img   style="height: 20px; width: 20px;"src="Images/icons8-star-48.png">
+    <img  style="height: 20px; width: 20px;" src="Images/icons8-star-48.png">
+  </div>
+    <p class="card-text">Best of Evolve Snacks- Perfect for first timers.</p>
+  </div>
+  
+  <div class="card-body">
+    <a href="#" class="card-link bg-success text-light">100gm</a>
+    <a href="#" class="card-link">500gm</a>
+  </div>
+</div>
+</section>
+
+<footer class="footer bg-light p-5">
+  <p>Copyright © Evolve Snacks 2021 | All rights reserved| Designed by Brand Fabricator |<br>Mobile apps by Shop2app, Inc</p>
+  
+</footer>
 
 
     

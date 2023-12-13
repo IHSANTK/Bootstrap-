@@ -10,70 +10,176 @@
     <title>Tasty foods</title>
 </head>
 <body>
+    
 
-   
-  <nav class="navbar navbar-expand-sm navbar-light bg-warning sticky-top">
-    <div class="container-fluid">
-        <a class="navbar-brand text-white fw-bold" href="#">Tasty Foods</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Deals
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-               
-            </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-               
-            </form>
-        </div>
-    </div>
-</nav>
-
-
-
-
-
-
-
-    <div class="container-fluid bg-success " id="contact">
-        <div class="row ">
-            <h1 class="text-center">Location</h1>
-            <div class="col-6 " id="contact-colum1">
-                <h1 class="text-white">Tasty Foods Restaurant</h1>
-                <h4>Calicut</h4>
-                <h4>Kerala</h4>
-                <p>Tel: 01234567</p>
-                <p>Email: tasty@email.com</p>
-                <p>Website: www.tasty.com</p>
-            </div>
-            <div class="col-6" id="contact-colum2">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6644.829348325748!2d75.83271637666994!3d11.247816018655572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65bbe359ced81%3A0xc17c381f72b87e02!2sHiLITE%20Mall!5e0!3m2!1sen!2sin!4v1702256484805!5m2!1sen!2sin"
-                 style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-    </div>
+    <nav class="navbar  navbar-expand-lg navbar-light  sticky-top">
+        <div class="container-fluid">
+           
+            <button class="navbar-toggler me-5 " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="Images/Screenshot 2023-12-12 130313.png"></a>
+            <i class="bi bi-bag d-lg-none d-md-none "></i>
+           
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">ALL SNACKS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  active" href="about.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link  active" href="#">HAMPERSGIFT </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link  active" href="#">VOUCHERS</a>
+                  </li>
+                    <li class="nav-item">
+                      <a class="nav-link  active" href="contact.html">CONTACT US</a>
+                   </li>
+                    
+                     </ul>
+                <form class="d-flex ">
+                    <input class="form-control me-2" type="search" placeholder="SEARCH PRODUCTS" aria-label="Search">
   
+                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#myModal" role="dialog" ><i class="bi bi-bag">
+                   </i></button>
+                   <div class="modal fade" id="myModal" role="dialog">
+                       <div class="modal-dialog">
+                               <div class="modal-content">
+                                  <div class="modal-header">
+                                      <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+                                      <h4>No produt in cart</h4>
+                              </div>
+                            </div>
+                       </div>
+                   </div>
+                   
+                   <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#myModal2" role="dialog" ><i class="bi bi-person-fill"></i>
+                  </button>
+                  <div class="modal fade" id="myModal2" role="dialog">
+                      <div class="modal-dialog">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                     <h6>singn</h6>
+                                   
+                                     <h6>register</h6>
+                                    
+                                     <h6>checkout</h6>
+                             </div>
+                           </div>
+                      </div>
+                  </div>
+                </form>
+                
+            </div>
+        </div>
+    </nav>
 
+
+
+    <span class="bg-primary"><p class="text-secondary ps-5">Home / Contact</p></span>
+    <section class="contact-section ">
+       <div class="row">
+         <div class=" col-sm-12 col-lg-4  p-5"><a href="#"></a><img class="d-flex mx-auto" src="Images/Screenshot 2023-12-13 082451.png"></a>
+        <h3 class="text-center mt-3">LET’S HAVE A CHAT!</h3>
+        <p class="text-center mt-3">admin@evolvesnacks.com</p></div>
+         <div class=" col-sm-12  col-lg-4   p-5"><a href="#"><img class="d-flex mx-auto" src="Images/Screenshot 2023-12-13 082721.png"></a>
+            <h3 class="text-center mt-3">VISIT OUR LOCATION</h3>
+            <p class="text-center mt-3">129, CSC Market No.2, Chitranjan Park,New Delhi-110019</p></div>
+         <div class=" col-sm-12  col-lg-4  p-5"><a href="#"></a><img class="d-flex mx-auto"src="Images/Screenshot 2023-12-13 082836.png"></a>
+           <h3 class="text-center mt-3">WORK TIME</h3>
+            <p class="text-center mt-3">7 Days a week from 9 AM to 7 PM</p></div>
+       </div>
+    
+    </section>
+    <section class="container">
+    <form class="row  ">
+        <div class="col-md-6 g-3">
+          
+          <input type="text" class="form-control bg-light" id="validationDefault01"placeholder="YOUR NAME"  required>
+       <br>
+          <input type="email" class="form-control bg-light" id="validationDefault02" placeholder="YOUR EMAIL" required>
+        <br>
+            <input type="text" class="form-control bg-light" id="validationDefaultUsername" placeholder="YOUR PHONE"  required>
+          
+        </div>
+        <div class="col-md-6  g-3">
+          
+            <div class="input-group">
+                
+                <textarea class="form-control bg-light" placeholder="YOUR MESSAGE"  With textarea rows="6"></textarea>
+              </div>
+        </div>
+    
+        <div class="col-12 d-flex justify-content-center g-3">
+          <button class=" bg-success  " style="height:6vh; width: 25vh;  border: none; color: white;"type="submit">Submit form</button>
+        </div>
+      </form>
+
+    </section>
+
+    <section class="container-fluid bg-primary mt-5 ">
+        <div class="row bg-black">
+        <div class="col-md-6  p-5"><p class="text-white">We want to be a part of your family's lifestyle & good health. care about your good health & strive to deliver you nourishing snacks.</p>
+               <span class="d-flex"><img style="width: 5vh; height: 5vh;" src="Images/Screenshot 2023-12-13 112332.png"><h3 class="text-success">+91- 9205534365</h3></span>
+                <p class="text-white">Mon-Friday from 9 am to 6 pm</p>
+                <br>
+                <p class="text-white">129, CSC Market No.2, Chitranjan Park,<br>New Delhi-110019</p>
+                <p><i class="bi bi-envelope text-success mt-5"></i><a class="text-success ms-3 "href="mailto:info@example.com ">admin@evolvesnacks.com</a>.</p>
+            </div>
+        <div class="col-md-6 p-5">
+            <h5 class="text-white">NEWSLETTER SIGNUP</h5>
+            <p class="text-white">Sign up for our e-mail and be the first who know our special offers!</p>
+          
+        <div class="input-group">
+             <input type="email" class="form-control" style="border-radius: 0px;"  placeholder="enter your email">
+             <span class="input-group-text bg-success text-white" style="border-radius: 0px;border: none;">JOIN S</span>
+          </div>
+          
+          <div class="d-flex" id="list-div">
+                
+                <ul class="ul text-white" >
+                    <a href="#"><li class="li text-white">We Know, We Care</li></a>
+                    <a href="#"><li class="li text-success">Why Evolve</li></a>
+                    <a href="#"><li class="li text-success">Contact Us</li></a>
+                    <a href="#"><li class="li text-success">Career</li></a>
+                    <a href="#"><li class="li text-success">Our Blog</li></a>
+                    <a href="#"><li class="li text-success">Become Our Affiliate</li></a>
+                </ul>
+                 
+                <ul class="ul text-white" >
+                    <a href="#"><li class="li text-white">policy</li></a>
+                    <a href="#"><li class="li text-success">Privacy Policy</li></a>
+                    <a href="#"><li class="li text-success">Terms & Conditions</li></a>
+                    <a href="#"><li class="li text-success">Terms & Conditions</li></a>
+                 </ul>
+          </div>
+
+        </div>
+    </div>
+
+    </section>
+
+    <footer class="footer bg-light p-5">
+        <p>Copyright © Evolve Snacks 2021 | All rights reserved| Designed by Brand Fabricator |<br>Mobile apps by Shop2app, Inc</p>
+        
+    </footer>
+
+
+      
+  <!--Bootstrap JS-->
+  <script src=" https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+  integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+<script src="/js/bootstrap.js"></script>
+
+
+  
 </body>
 </html>
