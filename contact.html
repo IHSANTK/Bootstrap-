@@ -41,47 +41,66 @@
                     <li class="nav-item">
                       <a class="nav-link  active" href="contact.html">CONTACT US</a>
                    </li>
-                    
                      </ul>
+  
                 <form class="d-flex ">
                     <input class="form-control me-2" type="search" placeholder="SEARCH PRODUCTS" aria-label="Search">
   
-                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#myModal" role="dialog" ><i class="bi bi-bag">
-                   </i></button>
-                   <div class="modal fade" id="myModal" role="dialog">
-                       <div class="modal-dialog">
-                               <div class="modal-content">
-                                  <div class="modal-header">
-                                      <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
-                                      <h4>No produt in cart</h4>
-                              </div>
-                            </div>
-                       </div>
-                   </div>
-                   
-                   <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#myModal2" role="dialog" ><i class="bi bi-person-fill"></i>
-                  </button>
-                  <div class="modal fade" id="myModal2" role="dialog">
-                      <div class="modal-dialog">
-                              <div class="modal-content">
-                                 <div class="modal-header">
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                     <h6>singn</h6>
-                                   
-                                     <h6>register</h6>
-                                    
-                                     <h6>checkout</h6>
-                             </div>
-                           </div>
-                      </div>
+                                        
+  <!-- Button trigger modal -->
+  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <i class="bi bi-bag"></i>
+  </button>
+  
+  
+  <!-- Button trigger modal -->
+  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal2">
+    <i class="bi bi-person-fill"></i>
+  </button>      
+                  
+                 </form>
                   </div>
-                </form>
-                
-            </div>
+                   </div>
+             </nav>
+    <!-- Modal-1-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+           
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+                <div class="modal-body">
+                No Prodect in cart
+               </div>
+               <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+             <button type="button" class="btn btn-primary">Save changes</button>
+           </div>
+         </div>
+       </div>
+    </div>
+      
+  
+  <!-- Modal-2-->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-    </nav>
-
-
+        <div class="modal-body">
+          singn   <br><br>resgister<br><br>checkout
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 
     <span class="bg-primary"><p class="text-secondary ps-5"><a class="text-secondary"href="index.html">Home</a> / Contact</p></span>
     <section class="contact-section ">
